@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <!-- https://codinginflow.com/tutorials/android/bottomnavigationview -->
+        <item android:id="@+id/schedular_item" android:icon="@drawable/ic_schedular"
+        android:title="Schedular"></item>
+            <item android:id="@+id/toDo_item" android:icon="@drawable/ic_todo"
+                android:title="Personal To-Do">
+            </item>
+        <item android:id="@+id/toDo_item_team" android:icon="@drawable/ic_team"
+            android:title="Team To-Do">
+        </item>
+</menu>
