@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        tools:context="com.eventtracker.com.eventtracker.AddEventActivity">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/title_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Event for..." />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/date_title_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_layout"
+            android:layout_marginTop="16dp"
+            android:text="Select date time"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/date_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/date_title_text_view"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/time_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/date_text_view"
+            android:layout_marginTop="12dp" />
+
+    </RelativeLayout>
+</layout>

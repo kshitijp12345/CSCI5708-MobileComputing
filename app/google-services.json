@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:416947917935:android:b550dead4ab00997",
+        "mobilesdk_app_id": "1:416947917935:android:2035cf935afd492c",
         "android_client_info": {
-          "package_name": "com.example.getitdoneontime.getitdoneontime"
+          "package_name": "com.eventtracker"
         }
       },
       "oauth_client": [
@@ -31,6 +31,50 @@
         "appinvite_service": {
           "status": 1,
           "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416947917935:android:b550dead4ab00997",
+        "android_client_info": {
+          "package_name": "com.example.getitdoneontime.getitdoneontime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416947917935-ev9cggsbn8lt8ihbcpfiqlre3nph5m13.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.getitdoneontime.getitdoneontime",
+            "certificate_hash": "7733536f5024370cddfbd0a9d08696885c6115b1"
+          }
+        },
+        {
+          "client_id": "416947917935-ct1bp43co7mnlcl0cke5du2k52c6odtv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0l_vNHO6cT9pcZQNiZghQsQze1uwCUYM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416947917935-ct1bp43co7mnlcl0cke5du2k52c6odtv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2

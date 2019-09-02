@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">GetItDone</string>
-    <string name="nav_drawer_open">Open Nav Drawer</string>
-    <string name="nav_drawer_close">Close Nav Drawer</string>
+    <string name="app_name">GET IT DONE</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

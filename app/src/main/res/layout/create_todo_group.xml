@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        android:text="Create A Group"
+        android:background="@color/colorPrimary"
+        android:padding="10sp"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:id="@+id/groupName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        tools:text="Group Name" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="Group Name"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/groupName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        android:text="Group Members"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/groupMembers"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/groupName"
+        android:layout_below="@+id/textView3"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        tools:text="Group Members" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/groupMembers"
+        android:layout_below="@+id/groupMembers"
+        android:layout_marginTop="39dp"
+        android:text="Cancel" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnCancel"
+        android:layout_alignBottom="@+id/btnCancel"
+        android:layout_alignEnd="@+id/groupMembers"
+        android:text="Save" />
+
+</RelativeLayout>
